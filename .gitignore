@@ -1,0 +1,38 @@
+# Dependencies  
+node_modules/  
+.pnp  
+  
+# Environment Variables  
+.env  
+.env.local  
+server/.env  
+  
+# Database  
+server/verita.db  
+*.db  
+*.sqlite  
+  
+# Uploaded files  
+server/uploads/*  
+!server/uploads/.gitkeep  
+  
+# Build outputs  
+client/dist/  
+client/build/  
+  
+# Vite cache  
+client/.vite/  
+*.timestamp-*.mjs  
+  
+# Logs  
+*.log  
+npm-debug.log*  
+  
+# OS files  
+.DS_Store  
+Thumbs.db  
+desktop.ini  
+  
+# Editor  
+.vscode/  
+.idea/ 
